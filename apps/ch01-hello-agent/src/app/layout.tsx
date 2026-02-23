@@ -1,8 +1,10 @@
 import type { Metadata } from "next";
+import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "Hello Agent",
-  description: "A simple AI chat agent powered by Claude",
+  title: "Ch01: Hello Agent",
+  description:
+    "Streaming chat with Mastra agent and Langfuse observability — Building AI-Powered Frontends",
 };
 
 export default function RootLayout({
@@ -12,7 +14,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body>{children}</body>
+      <body className="bg-gray-50 text-gray-900 antialiased">{children}</body>
     </html>
   );
 }
