@@ -1,0 +1,6 @@
+{
+  "$schema": "https://openapi.vercel.sh/vercel.json",
+  "buildCommand": "npx turbo run build --filter=ch01-hello-agent",
+  "outputDirectory": "apps/ch01-hello-agent/.next",
+  "framework": "nextjs"
+}
